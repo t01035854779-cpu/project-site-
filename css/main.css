@@ -248,6 +248,7 @@ figure video {
     background-color: #444;
     border-radius: 20px;
     overflow: hidden;
+    margin-top: 10px;
 }
 /* 움직이는 막대 */
 .fill {
@@ -271,6 +272,14 @@ figure video {
     max-width: 85%;
     background-color: yellow;
 }
+.fill-aftereffets{
+    max-width: 80%;
+    background-color: rgb(85, 235, 130);
+}
+.fill-photoshop{
+    max-width: 89%;
+    background-color: rgb(235, 85, 203);
+}
 /* 애니메이션 */
 @keyframes fillAni {
     from {
@@ -279,4 +288,39 @@ figure video {
     to {
         width: 100%;
     }
+}
+/* footer */
+.footer {
+    padding: 80px 0;
+    background-color: #333;
+    color: #fff;
+}
+.upper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #777;
+    color: thistle;
+    padding-bottom: 20px;
+}
+.ft-logo {
+    font-size: 30px;
+    color: wheat;
+    font-weight: bold;
+}
+.upper ul {
+    display: flex;
+    gap: 20px;
+}
+/* lower */
+.lower{
+    margin-top: 20px;
+    color: #999;
+    font-size: 12px;
+}
+address{
+    font-style: normal;
+}
+.lower p{
+    line-height: 2.5;
 }
